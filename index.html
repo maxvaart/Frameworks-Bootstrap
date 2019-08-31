@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width:device-width, user-scalable=no">
+        <link rel="stylesheet" href="CSS/Estilos.css">
+        <link rel="stylesheet" href="CSS/bootstrap.min.css">
+        <title>Prueba Bootstrap</title>
+    </head>
+    <body>
+        <div class="contenedor-principal">
+        <header class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                <img class="rounded float-left img-fluid logo" src="img/Logo.png" alt="logo">
+                </div>
+                
+                <div class="row float-right redes">
+                    <div class="col-lg-12 redes">
+                        <img class="rounded inline reds" alt="reds" src="img/Facebook.png">
+                        <img class="rounded inline reds" alt="reds" src="img/Youtube.png">
+                        <img class="rounded inline reds" alt="reds" src="img/Instagram.png">
+                        <img class="rounded inline reds" alt="reds" src="img/Twiter.png">
+                        <img class="rounded inline reds" alt="reds" src="img/Pinterest.png">
+                    </div>
+                </div>
+            </div>
+        </header>
+            <nav class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-2 col-sm-12 ">
+                        <button type="button" class="btn btn-secondary btn-lg">Inicio</button>
+                    </div>
+                    <div class="col-lg-2 col-sm-12">
+                        <button type="button" class="btn btn-secondary btn-lg">Artistas</button>
+                    </div>
+                    <div class="col-lg-2 col-sm-12">
+                        <button type="button" class="btn btn-secondary btn-lg">Top 10</button>
+                    </div>
+                    <div class="col-lg-2 col-sm-12">
+                        <button type="button" class="btn btn-secondary btn-lg">Letras</button>
+                    </div>
+                    <div class="col-lg-2 col-sm-12">
+                        <button type="button" class="btn btn-secondary btn-lg">Grupos</button>
+                    </div>
+                    <div class="col-lg-2 col-sm-12">
+                        <button type="button" class="btn btn-secondary btn-lg">Acordes</button>
+                    </div>
+                </div>
+            </nav>
+            <section class="container">
+                <div class="row">
+                    <div class="col-lg-8 articulos">
+                        <div class="row articulo2">
+                            <div class="col-lg-8 col-sm-12">
+                            <h2>Inicios de Linkin Park:</h2>
+                                <p>Linkin Park es una banda estadounidense de rock alternativo procedente de Agoura Hills, California. Formada en 1996, el grupo estuvo inicialmente integrado por Mike Shinoda, Dave Farrell, Joe Hahn, Brad Delson, Rob Bourdon y Mark Wakefield, este último como voz principal. La banda inició en ese mismo año sus primeros trabajos musicales de manera independiente y posterior a esto grabaron su primer material llamado Xero; sin embargo no tuvieron gran éxito en la búsqueda de un sello discográfico ya que nadie mostró interés por su trabajo, lo que ocasionó la renuncia de Mark Wakefield.2​ Poco después, Chester Bennington se incorporó a la banda como vocalista; el grupo realizó su primera presentación en un club de Los Ángeles y siendo respaldados por Jeff Blue, en aquel entonces vicepresidente de Warner Bros. Records, lograron firmar con el sello en 1999. El nombre del grupo es un juego de palabras que hace referencia al Lincoln Park en Santa Mónica.</p>
+                            </div>
+                            <div class="col-lg-4 col-sm-12">
+                                <img class="rounded banda" alt="banda" src="img/LinkinPark.jpg">
+                            </div>
+                        </div>
+                        <div class="row comentarios">
+                            <div class="col-lg-10 col-sm-9">
+                                <textarea placeholder="Deje aqui su comentario"></textarea>
+                            </div>
+                            <div class="col-lg-2 col-sm-2">
+                                <img class="rounded inline comentario" alt="icono" src="img/Comentario.png">
+                            </div>
+                        </div>
+                        <div class="row articulo1">
+                            <div class="col-lg-4 col-sm-12">
+                                <img class="rounded banda" alt="banda" src="img/adaytoremember.jpg">
+                            </div>
+                            <div class="col-lg-8 col-sm-12">
+                                <h2>Inicios de A Day to Remember:</h2>
+                                <p>Después de probar suerte en distintas bandas de la escena musical de Florida, el cantante Jeremy McKinnon, los guitarristas Neil Westfall y Tom Denney, así como el bajista Joshua Woodard y el baterista Bobby Scruggs se unieron para formar A Day to Remember en el año 2003. Tras lograr cierto reconocimiento en el circuito musical local, la banda se embarcó en el DIY tour, llegando a tocar en más de 200 shows. Gracias a esto despertaron la atención de ciertas compañías discográficas. Tal fue el caso de Indianola Records, con la cual firmaron para grabar su primer disco, And Their Name Was Treason, el cual fue lanzado en mayo de 2005. El disco logró vender 8000 copias sin mayor referencia ni publicidad que la generada en boca de la gente. No obstante, los miembros de la banda sentían que cosas más importantes estaban por venir.</p>
+                            </div>
+                        </div>
+                        <div class="row comentarios">
+                            <div class="col-lg-10 col-sm-9">
+                                <textarea placeholder="Deje aqui su comentario"></textarea>
+                            </div>
+                            <div class="col-lg-2 col-sm-2">
+                                <img class="rounded inline comentario float-right" alt="icono" src="img/Comentario.png">
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="col-lg-3 d-none d-sm-none d-md-none d-lg-block d-xl-block barra">
+                         <div class="form-row"> 
+                             <div class="input-group">
+                                <div class="input-group-prepend">
+                                    <span class="input-group-text" id="buscar">Buscar</span>
+                                </div>
+                                <input type="text" class="form-control" id="validationCustomUsername" placeholder="Tematica" aria-describedby="inputGroupPrepend" required>
+                            </div>
+                            <button type="button" class="btn btn-secondary btn-lg btn-block">Bandas de los 2000</button>
+                            <button type="button" class="btn btn-secondary btn-lg btn-block">Exitos del punk rock</button>
+                            <button type="button" class="btn btn-secondary btn-lg btn-block">Melodicos de hoy</button>
+                            <button type="button" class="btn btn-secondary btn-lg btn-block">Clasicos</button>
+                            <button type="button" class="btn btn-secondary btn-lg btn-block">Datos interesantes</button>
+                            <button type="button" class="btn btn-secondary btn-lg btn-block">Biografias</button>
+                            <button type="button" class="btn btn-secondary btn-lg btn-block">Letras</button>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </body>
+</html>

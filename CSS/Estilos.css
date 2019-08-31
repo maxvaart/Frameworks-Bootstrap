@@ -1,0 +1,81 @@
+body{
+    width: 100% !important;
+    background-color: darkslategray!important;
+}
+.contenedor-principal{
+    width: 100%;
+    align-self: center;
+}
+header{
+    background-color: dimgrey;
+    padding: auto;
+    border-radius: 10px;
+    border: 2px solid black;
+}
+.logo{
+    max-height: 250px !important;
+    margin: 5px;
+}
+.reds{
+    width: 50px !important;
+    margin: 5px;
+    text-align: justify !important;
+}
+nav{
+    margin-top: 15px;
+    background-color: darkgray;
+    border-radius: 10px;
+    border: 2px solid black;
+    padding: 3px;
+}
+.btn{
+    width: 100% ;
+}
+.redes{
+width: 100% !important;
+text-align: right;
+}
+.banda{
+   width: 100%;
+    margin-top: 15px;
+}
+
+h2, p{
+    color: white;
+}
+h2{
+     text-decoration: underline;
+}
+
+.articulo1 , .articulo2{
+    background-color: dimgrey;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin-top: 15px;
+}
+textarea{
+    width: 100%;
+}
+.comentario{
+    width: 38px;
+    margin-top: 15px;
+}
+.comentarios{
+    margin-top: 2px;
+    background-color: darkgray;
+    border-radius: 10px;
+    border: 2px solid black;
+    padding: 4px;
+}
+.barra{
+    margin-top: 15px;
+    margin-left: 78px;
+    background-color: darkgray;
+    border-radius: 10px;
+    border: 2px solid black;
+    padding: 5px;
+}
+.input-group{
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
